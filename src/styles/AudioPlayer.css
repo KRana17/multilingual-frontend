@@ -1,0 +1,91 @@
+.audio-player {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .audio-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .player-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .play-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #0d8bf2;
+  }
+  
+  .play-button.playing {
+    background-color: #f44336;
+  }
+  
+  .time-controls {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+  }
+  
+  .time-slider {
+    flex: 1;
+    height: 4px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    outline: none;
+    border-radius: 2px;
+  }
+  
+  .time-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #2196F3;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .time-slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #2196F3;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .current-time, .duration {
+    font-size: 0.8rem;
+    color: #666;
+    min-width: 40px;
+  }
+  
+  .audio-info {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+  }
+  

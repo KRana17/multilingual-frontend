@@ -1,0 +1,135 @@
+.landmark-info {
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .landmark-name {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2196F3;
+    padding-bottom: 10px;
+  }
+  
+  .landmark-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .landmark-location, .landmark-year {
+    background-color: #e3f2fd;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .landmark-description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .landmark-details {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .landmark-info-container {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      text-align: center; /* Center everything by default */
+    }
+    
+    .landmark-name {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+    
+    .landmark-info-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    
+    .landmark-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .landmark-name {
+      font-size: 2rem;
+      color: #333;
+    }
+    
+    .landmark-image-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .landmark-image-container {
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .landmark-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .landmark-content {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    
+    .landmark-details {
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      color: #666;
+    }
+    
+    .landmark-description {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    
+    .landmark-facts h3 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .fact-list {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    
+    .fact-item {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+    
+    @media (max-width: 600px) {
+      .landmark-details {
+        flex-direction: column;
+      }
+      
+      .landmark-image-container {
+        max-width: 100%;
+      }
+    }
+  }
+  
