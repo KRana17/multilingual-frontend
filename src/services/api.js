@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API endpoint URLs
-const API_BASE_URL = 'https://jz0bqr1fmd.execute-api.us-east-1.amazonaws.com/prod';
+const API_BASE_URL = 'https://rlomz7vr1e.execute-api.us-east-1.amazonaws.com/Prod';
 const UPLOAD_ENDPOINT = `${API_BASE_URL}/upload`;
 const PROCESS_ENDPOINT = `${API_BASE_URL}/process`;
 
