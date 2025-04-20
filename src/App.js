@@ -113,7 +113,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        <p>Powered by AWS Rekognition, Amazon Translate, and Amazon Polly</p>
+        <p>Powered by AWS Rekognition</p>
       </footer>
     </div>
   );
